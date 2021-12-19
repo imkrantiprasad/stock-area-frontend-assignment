@@ -5,7 +5,6 @@ import { connect } from "react-redux";
 
 function WarehousesList(props) {
 	const { warehouses, value, filter } = props.data;
-	console.log(props.data);
 	const [selectedCity, setSelectedCity] = useState([]);
 	const [selectedType, setSelectedType] = useState([]);
 	const [range, setRange] = useState(filter.max);
