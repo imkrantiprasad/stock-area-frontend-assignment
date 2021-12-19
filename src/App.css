@@ -75,23 +75,14 @@ thead tr:hover {
   display: flex;
   width: 50%;
   flex-direction: row;
-  /* border: 1px solid red; */
   text-align: left;
   margin: auto;
   margin-top: 20px;
 }
 .filter ul{
-  /* border: 1px solid red; */
   padding: 0;
   margin-right: 20px;
   margin-left: 0;
-}
-
-.filter ul li {
-  /* border: 1px solid red; */
-}
-.slider {
-  /* border: 1px solid red; */
 }
 
 @media screen and (max-width: 35.5em) {
@@ -134,9 +125,6 @@ thead tr:hover {
   table tbody tr td:nth-child(4):before {
     content: "Type";
   }
-  /* table tbody tr td:nth-child(5):before {
-    content: "Box Type";
-  } */
 }
 body {
   background: #e3f2fd;

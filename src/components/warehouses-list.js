@@ -24,10 +24,6 @@ function WarehousesList(props) {
 			setSelectedType(selectedType.filter((item) => item !== e.target.value));
 		}
 	}
-
-	function handleRange(e) {
-		console.log(e);
-	}
 	return (
 		<div>
 			<div className="filter-wrapper">
