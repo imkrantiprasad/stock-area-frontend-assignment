@@ -87,13 +87,16 @@ thead tr:hover {
 
 @media screen and (max-width: 35.5em) {
   table {
-    width: 90%;
+    width: 100%;
   }
   .filter{
     display: block;
   }
   .search-input{
     width: 80%;
+  }
+  .warehouse-detail-wrapper{
+    width: 100%;
   }
 }
 body {
